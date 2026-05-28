@@ -1,0 +1,14 @@
+course_code,course_name,credits,prerequisites
+CS1301,Intro to Programming,3,
+CS1331,Object-Oriented Programming,3,CS1301
+CS2050,Discrete Math,3,CS1301
+CS2110,Data Structures,3,CS1331;CS2050
+CS2200,Systems and Networks,3,CS2110
+CS3510,Design & Analysis of Algorithms,3,CS2110
+CS3600,Artificial Intelligence,3,CS2110
+CS4400,Database Systems,3,CS2110
+CS4641,Machine Learning,3,CS3510;CS3600
+MATH1551,Differential Calculus,4,
+MATH1552,Integral Calculus,4,MATH1551
+MATH2550,Intro to Multivariable Calculus,2,MATH1552
+MATH3012,Applied Combinatorics,3,CS2050

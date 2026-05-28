@@ -1,0 +1,12 @@
+course_code,course_name,credits,prerequisites
+BUS1000,Business Foundations,3,
+ACCT2100,Financial Accounting,3,BUS1000
+ECON2100,Microeconomics,3,BUS1000
+ECON2200,Macroeconomics,3,BUS1000
+MGT3000,Organizational Behavior,3,BUS1000
+MKT3100,Marketing Management,3,BUS1000
+FIN3200,Corporate Finance,3,ACCT2100;ECON2100
+MGT4100,Strategic Management,3,MGT3000;MKT3100
+CS4400,Database Systems,3,CS2110
+MATH1551,Differential Calculus,4,
+MATH1552,Integral Calculus,4,MATH1551
