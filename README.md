@@ -1,8 +1,6 @@
 # Degree Planner
 
-A smart, browser-based degree planning tool that takes your university course CSV files and generates an optimized semester-by-semester schedule — automatically respecting prerequisites, handling double majors, and minimizing the total number of semesters needed to graduate.
-
-Built for GT-style course sheets but designed to work with any structured CSV export.
+A smart, browser-based degree planning tool that takes your formatted CSV files and generates an optimized semester-by-semester schedule — automatically respecting prerequisites, handling multiple majors, and minimizing the total number of semesters needed to graduate.
 
 ---
 
@@ -36,7 +34,7 @@ Built for GT-style course sheets but designed to work with any structured CSV ex
 
 The planner auto-detects two formats:
 
-### GT-style (recommended)
+### Recommended CSV Style (final two columns, elective group & credits needed, are optional)
 
 ```csv
 Status,Course Code,Course Name,Credits,Prerequisite(s),Elective Group,Credits Needed
